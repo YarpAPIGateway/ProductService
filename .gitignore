@@ -1,0 +1,41 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.sln.ide
+*.suo
+*.vscode/
+*.db
+
+# User secrets
+secrets.json
+
+# Visual Studio files
+.vs/
+*.sln
+*.csproj.user
+*.ncb
+*.sdf
+*.suo
+*.opensdf
+*.opendb
+*.pdb
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Publish output
+publish/
+out/
